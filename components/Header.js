@@ -1,8 +1,9 @@
+import { motion } from 'framer-motion';
 import Link from 'next/link';
 
 export function Header() {
   return (
-    <header>
+    <motion.header layout>
       <h1 className='logo'>
         <Link href='/' >Game Informer</Link>
       </h1>
@@ -10,6 +11,6 @@ export function Header() {
         <Link href='/johnbarhorst'>About Me</Link>
         <Link href='/site'>Site Details</Link>
       </nav>
-    </header>
+    </motion.header>
   );
 }
