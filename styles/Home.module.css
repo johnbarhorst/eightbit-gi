@@ -1,6 +1,5 @@
 .main {
   text-align: center;
-  /* background: repeating-linear-gradient(#0000FC, #3cbcfc 200px, #3cbcfc 200px, #0000FC 250px); */
 }
 
 .boss_select {
@@ -9,7 +8,7 @@
   gap: 1rem;
   justify-content: center;
   align-items: center;
-  padding: 5rem;
+  padding: 3rem;
 }
 
 .boss_card {
