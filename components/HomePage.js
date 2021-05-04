@@ -23,7 +23,7 @@ export function HomePage() {
       >Stage Select</motion.span>
       <section className={style.boss_select}>
         {data.map(({ name, fullName, imgPath }) => (
-          <Link href={`/${name}`} key={name}>
+          <Link href={`/editor/${name}`} key={name}>
             <div className={style.boss_card}>
               <motion.img
                 layoutId={`${name}_pic`}
