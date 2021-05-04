@@ -1,9 +1,11 @@
 import { motion } from 'framer-motion';
 import { containerVariants, itemVariants } from 'utils/variants';
+import editorData from 'utils/editorData';
 import { PageTransition } from './PageTransition';
 
 
-export function EditorPage({ name, fullName, bio, imgPath }) {
+export function EditorPage({ editor }) {
+  const { name, fullName, imgPath, bio } = editorData[editor];
   return (
     <PageTransition className='layout'>
       <div>
