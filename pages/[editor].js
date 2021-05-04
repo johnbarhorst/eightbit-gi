@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import { EditorPage } from 'components/EditorPage';
-import { editorData } from 'editorData';
+import { editorData } from 'utils/editorData';
 
 export default function Editor() {
   const router = useRouter();
