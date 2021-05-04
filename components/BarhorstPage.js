@@ -8,7 +8,7 @@ export function BarhorstPage() {
       <motion.div layout className='grid'>
         <motion.section layout>
           <motion.h3 layout>Contact</motion.h3>
-          <motion.ul>
+          <motion.ul className='small'>
             <li><a href="https://www.github.com/johnbarhorst">github.com/johnbarhorst</a></li>
             <li><a href="tel:1-651-253-2911">Phone: 651-253-2911</a></li>
             <li><a href="mailto:johnbarhorst.dev@gmail.com">johnbarhorst.dev@gmail.com</a></li>
@@ -16,7 +16,7 @@ export function BarhorstPage() {
           <motion.h3 layout>Tech Skills</motion.h3>
           <motion.ul layout>
             <li>React.js</li>
-            <li>Node.js</li>
+            <li>Node/Express</li>
             <li>JavaScript</li>
             <li>Framer Motion</li>
             <li>CSS</li>

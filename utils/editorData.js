@@ -6,8 +6,7 @@ const editorData = {
     bio: [
       'Jay Guisao is from Floral Park, NY; a forgettable village save for its abundance of tall trees. A contemporary gamer, Jay\'s first true love was his PS2 and the JRPG/racing simulator Road Trip Adventure.',
       'From there, he joined the vast ranks of Xbox owners with the arrival of the classic 360 console and dwelt in the fantastical universes of Dragon Age and Final Fantasy.',
-      'These days, you\'ll find him wildly shot-calling for his amateur Apex Legends team as they rigorously venture to carve a path through the console competitive scene.',
-      ''
+      'These days, you\'ll find him wildly shot-calling for his amateur Apex Legends team as they rigorously venture to carve a path through the console competitive scene.'
     ]
   },
   marcus: {
@@ -28,7 +27,6 @@ const editorData = {
       'From real-time strategy games of the late 90s to MMORPG\'s of the mid-2000s and all the way to current battle royales like Apex Legends, Alex has spent his life trying to find a better multiplayer game than Halo 2.',
       'Alex Van Aken hails from Richmond, VA originally, however, he has spent the last 5+ years podcasting and filming videos about games from his home in sunny Boulder, CO. When not enjoying a weekend brunch with his wife or spending evenings writing music, Alex loves to play video games (that\'s obvious, right?).',
       'In particular, he enjoys competitive first-person shooters, strategy and stealth games, MMORPG\'s, indies, and a bevy of battle royale titles. Van Aken\'s favorite games of all time include World of Warcraft, Halo, Animal Crossing, Celeste, and more recently, Zelda: Breath of the Wild.',
-      ''
     ]
   },
   liana: {

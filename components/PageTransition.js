@@ -14,7 +14,7 @@ export function PageTransition({ children, ...rest }) {
       initial='initial'
       animate='animate'
       exit='exit'
-
+      layout
     >
       { children }
     </motion.main>

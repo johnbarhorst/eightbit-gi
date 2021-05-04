@@ -1,13 +1,11 @@
 export const containerVariants = {
   initial: {
-    transition: {
-      delay: 5,
-      staggerChildren: .3
-    }
+    opacity: 0
   },
   animate: {
+    opacity: 1,
     transition: {
-      delay: 5,
+      when: 'beforeChildren',
       staggerChildren: .3
     }
   }
@@ -18,6 +16,6 @@ export const itemVariants = {
     opacity: 0
   },
   animate: {
-    opacity: 1
+    opacity: 1,
   }
 };
