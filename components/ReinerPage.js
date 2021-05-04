@@ -9,13 +9,13 @@ export function ReinerPage() {
         src='/reiner.jpeg'
         alt='andrew reiner'
       />
-      <motion.span
+      <motion.p
+        className='editor_label'
         style={{
-          display: 'block',
           textTransform: 'uppercase'
         }}
         layoutId='reiner_text'
-      >reiner</motion.span>
+      >reiner</motion.p>
     </PageTransition>
   );
 }

@@ -9,13 +9,13 @@ export function AlexPage() {
         src='/alexvanaken.jpeg'
         alt='alex vanaken'
       />
-      <motion.span
+      <motion.p
+        className='editor_label'
         style={{
-          display: 'block',
           textTransform: 'uppercase'
         }}
         layoutId='alex_text'
-      >alex</motion.span>
+      >alex</motion.p>
     </PageTransition>
   );
 }

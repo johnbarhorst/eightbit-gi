@@ -1,11 +1,11 @@
 import { Header } from './Header';
 import { Footer } from './Footer';
 import Head from 'next/head';
-import { AnimatePresence, AnimateSharedLayout } from 'framer-motion';
+import { AnimatePresence, AnimateSharedLayout, motion } from 'framer-motion';
 
 export function Layout({ children }) {
   return (
-    <div className="layout_wrapper">
+    <motion.div layout className="layout_wrapper">
       <Head>
         <title>8 Bit GI</title>
         <meta name="description" content="Some fun with Game Informer" />
@@ -18,6 +18,6 @@ export function Layout({ children }) {
         </AnimateSharedLayout>
       </AnimatePresence>
       <Footer />
-    </div>
+    </motion.div>
   );
 }

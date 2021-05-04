@@ -9,13 +9,13 @@ export function MarcusPage() {
         src='/marcus.jpeg'
         alt='marcus stewart'
       />
-      <motion.span
+      <motion.p
+        className='editor_label'
         style={{
-          display: 'block',
           textTransform: 'uppercase'
         }}
         layoutId='marcus_text'
-      >marcus</motion.span>
+      >marcus</motion.p>
     </PageTransition>
   );
 }

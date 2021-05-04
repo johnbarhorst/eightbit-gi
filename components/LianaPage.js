@@ -9,13 +9,13 @@ export function LianaPage() {
         src='/lianaruppert.jpeg'
         alt='lianaruppert'
       />
-      <motion.span
+      <motion.p
+        className='editor_label'
         style={{
-          display: 'block',
           textTransform: 'uppercase'
         }}
         layoutId='liana_text'
-      >liana</motion.span>
+      >liana</motion.p>
     </PageTransition>
   );
 }

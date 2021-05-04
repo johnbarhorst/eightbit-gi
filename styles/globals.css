@@ -112,11 +112,15 @@ a {
 }
 
 nav {
-  font-size: .5rem;
+  font-size: .6rem;
+}
+
+nav a {
+  padding: .5rem;
 }
 
 nav a+a {
-  margin-left: none;
+  padding-left: none;
 }
 
 footer {
@@ -131,11 +135,18 @@ footer .logo {
   margin-bottom: 1em;
 }
 
-footer p {
+footer p,
+p.editor_label {
   background: none;
   border: none;
   box-shadow: none;
   margin: 0 auto;
+}
+
+
+p.editor_label {
+  margin: 0;
+  padding: 0;
 }
 
 h1, h2, h3, h4, h5 {
@@ -341,4 +352,13 @@ hr {
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    font-size: 1rem;
+  }
+  .grid {
+    display: grid;
+  }
 }

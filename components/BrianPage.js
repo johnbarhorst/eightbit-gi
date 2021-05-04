@@ -9,13 +9,13 @@ export function BrianPage() {
         src='/brian.jpeg'
         alt='brian shea'
       />
-      <motion.span
+      <motion.p
+        className='editor_label'
         style={{
-          display: 'block',
           textTransform: 'uppercase'
         }}
         layoutId='brian_text'
-      >brian</motion.span>
+      >brian</motion.p>
     </PageTransition>
   );
 }

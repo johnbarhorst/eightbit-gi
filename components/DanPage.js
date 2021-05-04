@@ -9,13 +9,13 @@ export function DanPage() {
         src='/daniel.jpeg'
         alt='dan tack'
       />
-      <motion.span
+      <motion.p
+        className='editor_label'
         style={{
-          display: 'block',
           textTransform: 'uppercase'
         }}
         layoutId='dan_text'
-      >dan</motion.span>
+      >dan</motion.p>
     </PageTransition>
   );
 }

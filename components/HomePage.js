@@ -7,6 +7,8 @@ export function HomePage() {
   return (
     <PageTransition className={style.main}>
       <motion.span
+        layout
+        className='editor_label'
         initial={{ opacity: 0 }}
         animate={{
           opacity: 1
@@ -26,9 +28,11 @@ export function HomePage() {
               src='/alexvanaken.jpeg'
               alt='alex vanaken'
             />
-            <motion.span
+            <motion.p
+              layout
+              className='editor_label'
               layoutId='alex_text'
-            >alex</motion.span>
+            >alex</motion.p>
           </div>
         </Link>
         <Link href='./brian'>
@@ -39,8 +43,10 @@ export function HomePage() {
               src='/brian.jpeg'
               alt='brian'
             />
-            <motion.span
-              layoutId='brian_text'>brian</motion.span>
+            <motion.p
+              layout
+              className='editor_label'
+              layoutId='brian_text'>brian</motion.p>
           </div>
         </Link>
         <Link href='./dan'>
@@ -51,8 +57,10 @@ export function HomePage() {
               src='/daniel.jpeg'
               alt='daniel'
             />
-            <motion.span
-              layoutId='dan_text'>dan</motion.span>
+            <motion.p
+              layout
+              className='editor_label'
+              layoutId='dan_text'>dan</motion.p>
           </div>
         </Link>
         <Link href='./jason'>
@@ -63,8 +71,10 @@ export function HomePage() {
               src='/jason.jpeg'
               alt='jason'
             />
-            <motion.span
-              layoutId='jason_text'>jason</motion.span>
+            <motion.p
+              layout
+              className='editor_label'
+              layoutId='jason_text'>jason</motion.p>
           </div>
         </Link>
         <Link href='./reiner'>
@@ -75,8 +85,10 @@ export function HomePage() {
               src='/reiner.jpeg'
               alt='reiner'
             />
-            <motion.span
-              layoutId='reiner_text'>reiner</motion.span>
+            <motion.p
+              layout
+              className='editor_label'
+              layoutId='reiner_text'>reiner</motion.p>
           </div>
         </Link>
         <Link href='./kim'>
@@ -87,8 +99,10 @@ export function HomePage() {
               src='/kim.jpeg'
               alt='kim'
             />
-            <motion.span
-              layoutId='kim_text'>kim</motion.span>
+            <motion.p
+              layout
+              className='editor_label'
+              layoutId='kim_text'>kim</motion.p>
           </div>
         </Link>
         <Link href='./liana'>
@@ -99,9 +113,11 @@ export function HomePage() {
               src='/lianaruppert.jpeg'
               alt='liana ruppert'
             />
-            <motion.span
+            <motion.p
+              layout
+              className='editor_label'
               layoutId='liana_text'
-            >liana</motion.span>
+            >liana</motion.p>
           </div>
         </Link>
         <Link href='./marcus'>
@@ -112,8 +128,10 @@ export function HomePage() {
               src='/marcus.jpeg'
               alt='marcus'
             />
-            <motion.span
-              layoutId='marcus_text'>marcus</motion.span>
+            <motion.p
+              layout
+              className='editor_label'
+              layoutId='marcus_text'>marcus</motion.p>
           </div>
         </Link>
         <Link href='./reeves'>
@@ -124,8 +142,10 @@ export function HomePage() {
               src='/reeves.jpeg'
               alt='reeves'
             />
-            <motion.span
-              layoutId='reeves_text'>reeves</motion.span>
+            <motion.p
+              layout
+              className='editor_label'
+              layoutId='reeves_text'>reeves</motion.p>
           </div>
         </Link>
       </section>

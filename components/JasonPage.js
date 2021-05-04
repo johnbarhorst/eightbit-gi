@@ -9,13 +9,13 @@ export function JasonPage() {
         src='/jason.jpeg'
         alt='jason guisao'
       />
-      <motion.span
+      <motion.p
+        className='editor_label'
         style={{
-          display: 'block',
           textTransform: 'uppercase'
         }}
         layoutId='jason_text'
-      >jason</motion.span>
+      >jason</motion.p>
     </PageTransition>
   );
 }

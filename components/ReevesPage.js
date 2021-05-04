@@ -9,13 +9,13 @@ export function ReevesPage() {
         src='/reeves.jpeg'
         alt='ben reeves'
       />
-      <motion.span
+      <motion.p
+        className='editor_label'
         style={{
-          display: 'block',
           textTransform: 'uppercase'
         }}
         layoutId='reeves_text'
-      >reeves</motion.span>
+      >reeves</motion.p>
     </PageTransition>
   );
 }

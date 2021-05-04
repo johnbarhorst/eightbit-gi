@@ -9,13 +9,14 @@ export function KimPage() {
         src='/kim.jpeg'
         alt='andrew kim'
       />
-      <motion.span
+      <motion.p
+        layout
+        className='editor_label'
         style={{
-          display: 'block',
           textTransform: 'uppercase'
         }}
         layoutId='kim_text'
-      >kim</motion.span>
+      >kim</motion.p>
     </PageTransition>
   );
 }
