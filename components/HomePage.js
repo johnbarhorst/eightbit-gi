@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { editorData } from 'utils/editorData';
+import editorData from 'utils/editorData';
 import { PageTransition } from './PageTransition';
 import style from 'styles/Home.module.css';
 

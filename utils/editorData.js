@@ -1,4 +1,4 @@
-export const editorData = {
+const editorData = {
   jason: {
     name: 'jason',
     fullName: 'jason guisao',
@@ -91,3 +91,5 @@ export const editorData = {
     ]
   }
 };
+
+export default editorData;
