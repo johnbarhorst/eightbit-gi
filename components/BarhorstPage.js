@@ -10,7 +10,7 @@ export function BarhorstPage() {
           <motion.h3 layout>Contact</motion.h3>
           <motion.ul className='small'>
             <li><a href="https://www.github.com/johnbarhorst">github.com/johnbarhorst</a></li>
-            <li><a href="tel:1-651-253-2911">Phone: 651-253-2911</a></li>
+            <li><a href="tel:1-651-253-2911">phone: 651-253-2911</a></li>
             <li><a href="mailto:johnbarhorst.dev@gmail.com">johnbarhorst.dev@gmail.com</a></li>
           </motion.ul>
           <motion.h3 layout>Tech Skills</motion.h3>

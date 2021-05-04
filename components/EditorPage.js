@@ -1,11 +1,9 @@
 import { motion } from 'framer-motion';
-import editorData from 'utils/editorData';
 import { containerVariants, itemVariants } from 'utils/variants';
 import { PageTransition } from './PageTransition';
 
 
-export function EditorPage({ editor }) {
-  const { name, fullName, imgPath, bio } = editorData[editor];
+export function EditorPage({ name, fullName, imgPath, bio }) {
   return (
     <PageTransition className='layout'>
       <div>
@@ -37,7 +35,7 @@ export function EditorPage({ editor }) {
         }}
         layout
       >
-        {bio.map((text, i) => (<motion.p layout variants={itemVariants} key={i}>{text}</motion.p>))}
+        {bio?.map((text, i) => (<motion.p layout variants={itemVariants} key={i}>{text}</motion.p>))}
       </motion.section>
     </PageTransition>
   );
