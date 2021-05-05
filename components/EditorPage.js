@@ -6,7 +6,7 @@ import { PageTransition } from './PageTransition';
 export function EditorPage({ name, fullName, imgPath, bio }) {
   return (
     <PageTransition className='layout'>
-      <div>
+      <motion.div layout>
         <motion.img
           layout
           initial={{
@@ -26,7 +26,7 @@ export function EditorPage({ name, fullName, imgPath, bio }) {
           }}
           layoutId={`${name}_text`}
         >{fullName}</motion.h3>
-      </div>
+      </motion.div>
       <motion.section
         variants={containerVariants}
         initial='initial'
