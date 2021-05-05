@@ -8,6 +8,7 @@ export function EditorPage({ name, fullName, imgPath, bio }) {
     <PageTransition className='layout'>
       <div>
         <motion.img
+          layout
           initial={{
             borderRadius: 'none'
           }}

@@ -26,6 +26,7 @@ export function HomePage() {
           <Link href={`/editor/${name}`} key={name}>
             <div className={style.boss_card}>
               <motion.img
+                layout
                 layoutId={`${name}_pic`}
                 className={style.boss_image}
                 src={imgPath}
