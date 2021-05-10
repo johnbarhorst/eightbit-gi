@@ -18,6 +18,10 @@
   text-transform: uppercase;
 }
 
+.boss_card:hover {
+  border-bottom: none;
+}
+
 .boss_card span{
   display: block;
 }
@@ -25,4 +29,8 @@
 .boss_image {
   border: 10px ridge var(--borderColor);
   width: 100%;
+}
+
+.pt1 {
+  padding-top: 1rem;
 }

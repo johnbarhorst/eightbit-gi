@@ -8,23 +8,24 @@ export function HomePage() {
   const data = Object.values(editorData);
   return (
     <PageTransition className={style.main}>
-      <motion.span
-        layout
-        className='editor_label'
-        initial={{ opacity: 0 }}
-        animate={{
-          opacity: 1
-        }}
-        transition={{
-          repeat: Infinity,
-          repeatType: 'mirror',
-          duration: 1
-        }}
-      >Stage Select</motion.span>
+      <motion.div className={style.pt1}>
+        <motion.span
+          layout
+          initial={{ opacity: 0 }}
+          animate={{
+            opacity: 1
+          }}
+          transition={{
+            repeat: Infinity,
+            repeatType: 'mirror',
+            duration: 1
+          }}
+        >Stage Select</motion.span>
+      </motion.div>
       <section className={style.boss_select}>
         {data.map(({ name, fullName, imgPath }) => (
           <Link href={`/editor/${name}`} key={name}>
-            <div className={style.boss_card}>
+            <a className={style.boss_card}>
               <motion.img
                 layout
                 layoutId={`${name}_pic`}
@@ -37,7 +38,7 @@ export function HomePage() {
                 className='editor_label'
                 layoutId={`${name}_text`}
               >{name}</motion.p>
-            </div>
+            </a>
           </Link>
         ))}
       </section>
