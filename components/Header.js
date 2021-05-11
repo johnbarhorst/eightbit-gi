@@ -8,7 +8,8 @@ export function Header() {
         <Link href='/' >Game Informer</Link>
       </h1>
       <nav>
-        <Link href='/'>Home</Link>
+        {/* TODO: Fix nav on mobile */}
+        {/* <Link href='/'>Home</Link> */}
         <Link href='/johnbarhorst'>About Me</Link>
         <Link href='/site'>Site Details</Link>
       </nav>
