@@ -263,7 +263,7 @@ ul {
 }
 
 ul li:before {
-  background-image: url('public/mm1up.png');
+  background-image: url('./mm1up.png');
   background-size: contain;
   content: '';
   display: inline-block;
